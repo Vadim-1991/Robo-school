@@ -1,0 +1,22 @@
+/*Header*/
+@import url('header/header.css');
+@import url('header/menu.css');
+@import url('header/info-panel.css');
+@import url('header/burger.css');
+@import url('header/hero.css');
+
+/*About*/
+@import url('about-us/about-us.css');
+
+/*Advantages*/
+@import url('advantages/advantages.css');
+
+/*Package*/
+@import url('package/package.css');
+
+
+/*Record*/
+@import url('record/record.css');
+
+/*Footer*/
+@import url('footer/footer.css');

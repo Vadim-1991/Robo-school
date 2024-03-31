@@ -1,0 +1,84 @@
+.about-us {
+    padding-block: 120px;
+}
+
+.about-us__text {
+    font-size: 30px;
+    max-width: 891px;
+}
+
+.about-us__advantages {
+    margin-top: 60px;
+}
+
+.about-us__advantages {
+    --caunt-card: 4;
+    margin-top: 50px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(var(--caunt-card), 1fr);
+}
+
+.about-us__advantages-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.list__item-number {
+    font-weight: 600;
+    font-size: 70px;
+    color: var(--color-primery);
+}
+
+.list__item-text {
+    font-size: 18px;
+    color: var(--color-black);
+    opacity: 0.7;
+}
+
+@media screen and (max-width:1160px) {
+    .about-us__text {
+        font-size: 24px;
+    }
+
+    .about-us {
+        padding-block: 90px;
+    }
+
+    .about-us__advantages {
+        --caunt-card: 2;
+        margin-top: 50px;
+        row-gap: 30px;
+    }
+
+    .list__item-number {
+        font-size: 64px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-us__text {
+        font-style: 20px;
+    }
+
+    .about-us {
+        padding-block: 60px;
+    }
+
+    .about-us__advantages {
+        --caunt-card: 1;
+        margin-top: 40px;
+
+    }
+
+    .list__item-number {
+        font-size: 60px;
+        line-height: 87px;
+        text-align: center;
+    }
+
+    .list__item-text {
+        font-size: 16px;
+        text-align: center;
+    }
+}

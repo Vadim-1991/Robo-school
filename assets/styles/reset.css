@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  display: inline-flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border:none;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

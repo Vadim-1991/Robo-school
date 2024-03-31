@@ -1,0 +1,22 @@
+:root {
+  /* Colors */
+  --color-white: #FFFFFF;
+  --color-black: #141024;
+  --color-gray: #F9F9F9;
+  --color-primery: #D52027;
+
+  /* Fonts */
+  --font-family-default: 'Jost', sans-serif;
+  --font-size-default: 16px;
+  --font-weight-default: 400;
+  --line-height-default: 1.60;
+
+  /* Grid */
+  --grid-max-width: 1160px;
+
+  /* ZIndex */
+  --z-index-1: 1;
+  --z-index-2: 2;
+  --z-index-3: 3;
+}
+

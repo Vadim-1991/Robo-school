@@ -1,0 +1,31 @@
+.button {
+    background-color: var(--color-primery);
+    color: var(--color-white);
+    padding: 25px 54px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+@media (any-hover: hover) {
+    .button:hover {
+        transform: scale(1.05);
+    }
+
+    .input:focus-visible {
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .button {
+        padding: 21px 54px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .button {
+        font-size: 16px;
+    }
+}

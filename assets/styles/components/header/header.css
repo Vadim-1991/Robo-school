@@ -1,0 +1,30 @@
+.header {
+  --height-header-top: 108px;
+  background-color: var(--color-black);
+  padding-top: var(--height-header-top);
+  position: relative;
+}
+
+.header__top {
+  --margin-x: 100px;
+  height: var(--height-header-top);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - calc(var(--margin-x) * 2));
+  margin-inline: var(--margin-x);
+  color: var(--color-white);
+}
+
+@media screen and (max-width: 1160px) {
+  .header__top {
+    --margin-x: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__top {
+    --margin-x: 10px;
+  }
+}
+
