@@ -10,7 +10,7 @@
  .hero__container::after {
      content: '';
      display: block;
-     background-image: url('../../../assets/images/hero.png');
+     background-image: url('../../../images/hero.png');
      width: 783px;
      height: 918px;
      background-repeat: no-repeat;
