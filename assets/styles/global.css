@@ -27,6 +27,12 @@ body {
   padding-inline: var(--padding-x);
 }
 
+.container-whide{
+  --margin-x: 100px;
+  width: calc(100% - calc(var(--margin-x) * 2));
+  margin-inline: var(--margin-x);
+}
+
 h1 {
   font-weight: 600;
   font-size: 70px;

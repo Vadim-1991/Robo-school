@@ -1,55 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROBO.SCHOOL</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ROBO.SCHOOL</title>
-  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/index.css" />
+  </head>
 
-  <link rel="stylesheet" href="assets/styles/index.css">
-</head>
-
-<body id="body">
-
-  <header class="header">
-    <div class="info-panel header__top">
-      <a href="/" class="info-panel__logo">
-        Robo.School
-      </a>
-      <nav class="info-panel__nav">
-        <ul class="info-panel__list">
-          <li class="menu__list-item">
-            <a href="#">О школе</a>
-          </li>
-          <li class="menu__list-item">
-            <a href="#">Тренеры</a>
-          </li>
-          <li class="menu__list-item">
-            <a href="#">Стоимость</a>
-          </li>
-        </ul>
-      </nav>
-      <a href="tel:+78000001122" class="info-panel__phone">
-        +7 800 000 11 22
-      </a>
-
-      <a href="tel:+78000001122" aria-label="Кнопка позвонить по телефону +78000001122"
-        class="info-panel__button-phone button-icon-gradient">
-        <svg width="24" height="24">
-          <use href="assets/images/vector/sprites.svg#phone" />
-        </svg>
-      </a>
-      <div class="info-panel__burger burger" id="infoPanelMobile">
-        <button class="burger-button button-icon-gradient" id="buttonBurger" aria-label="Кнопка бургер меню">
-          <span class="burger-button__line"></span>
-        </button>
-        <nav class="burger-menu">
-          <ul class="burger__list">
+  <body id="body">
+    <header class="header">
+      <div class="info-panel header__top container-whide">
+        <a href="/" class="info-panel__logo"> Robo.School </a>
+        <nav class="info-panel__nav">
+          <ul class="info-panel__list">
             <li class="menu__list-item">
               <a href="#">О школе</a>
             </li>
@@ -61,141 +36,178 @@
             </li>
           </ul>
         </nav>
-      </div>
-    </div>
-    <div class="hero header__hero">
-      <div class="container hero__container">
-        <h1 class="hero__title">
-          <span class="hero__title-accent">ROBO</span> SCHOOL
-        </h1>
-        <p class="hero__subtitle">
-          Курсы повышения квалификации по робототехнике для педагогов начальной школы
-        </p>
-        <button type="submit" class="button hero__button">Записаться на курс</button>
-      </div>
-    </div>
-  </header>
-
-  <section class="about-us container">
-    <p class="about-us__text">
-      <strong>Robo School</strong> – учреждение для формирования кадрового педагогического резерва в сфере
-      робототехники <br> и программирования
-    </p>
-    <div class="about-us__advantages">
-      <article class="about-us__advantages-card">
-        <span class="list__item-number">
-          10
-        </span>
-        <span class="list__item-text">УМК по различным направлениям по робототехнике</span>
-      </article>
-      <article class="about-us__advantages-card">
-        <span class="list__item-number">
-          20
-        </span>
-        <span class="list__item-text">Школ, в которых запущена робототехника</span>
-      </article>
-      <article class="about-us__advantages-card">
-        <span class="list__item-number">
-          100
-        </span>
-        <span class="list__item-text">Педагогов прошедших курсы повышения квалификации</span>
-      </article>
-      <article class="about-us__advantages-card">
-        <span class="list__item-number">
-          10&nbsp;000
-        </span>
-        <span class="list__item-text">Обученных детей на базе собственных центров</span>
-      </article>
-    </div>
-  </section>
-
-  <section class="advantages">
-    <div class="container">
-      <h2 class="advantages__title">Что вы получите после курса</h2>
-      <div class="advantages__list">
-        <article class="advantages__list-item">
-          <h3 class="advantages__list-item-title">Удостоверение</h3>
-          <span class="advantages__list-item-description">Дающее право преподавать робототехнику для детей 6-12 лет
-            в
-            образовательных учреждениях</span>
-        </article>
-        <article class="advantages__list-item">
-          <h3 class="advantages__list-item-title">Знания</h3>
-          <span class="advantages__list-item-description">По основам разработки учебно-<wbr>методических комплексов
-            по робототехнике и программированию</span>
-        </article>
-        <article class="advantages__list-item">
-          <div class="tooltip tooltip-active">
-            <h3 class="advantages__list-item-title">Практику</h3>
-            <div class="tooltip__icon">i</div>
-            <div class="tooltip__text">При наличии свободных мест</div>
-          </div>
-          <span class="advantages__list-item-description">Возможность пройти практику по преподаванию робототехники
-            на
-            базе R:ED&nbsp;LAB (в оффлайн или онлайн формате)</span>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="package container">
-    <h2 class="package__title">
-      Выберите нужный пакет
-    </h2>
-    <div class="package__list">
-      <article class="package__list-item package-active">
-        <span class="package__list-item-title">PRO</span>
-        <span class="package__list-item-price">20.000 &#8381;</span>
-        <span class="package__list-item-description">УМК по робототетхнике <br> и программированию</span>
-        <button type="submit" class="button package__button">Оставить заявку</button>
-      </article>
-
-      <article class="package__list-item">
-        <span class="package__list-item-title">ROBO</span>
-        <span class="package__list-item-price">15.000 &#8381;</span>
-        <span class="package__list-item-description">УМК по робототетхнике </span>
-        <button type="submit" class="button package__button">Оставить заявку</button>
-      </article>
-
-      <article class="package__list-item">
-        <span class="package__list-item-title">PROG</span>
-        <span class="package__list-item-price">10.000 &#8381;</span>
-        <span class="package__list-item-description">УМК по программированию</span>
-        <button type="submit" class="button package__button">Оставить заявку</button>
-      </article>
-    </div>
-
-  </section>
-
-  <section class="record">
-    <div class="container record__container">
-      <record class="record__left">
-        <h2 class="record__left-title">Запишитесь на курс со скидкой 10%</h2>
-        <p class="record__left-descr">Акция действительна до 10 марта 2022 года</p>
-      </record>
-      <form class="record__form" action="">
-        <input type="text" class="input" placeholder="Имя">
-        <input type="text" class="input" placeholder="Телефон">
-        <input type="text" class="input" placeholder="E-mail">
-        <button class="button record__button" type="submit">Оформить заявку</button>
-      </form>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="footer__wrapper flex">
-
-        <a href="/" class="footer__logo">
-          Robo.School
+        <a href="tel:+78000001122" class="info-panel__phone">
+          +7 800 000 11 22
         </a>
-        <span class="footer__copyright">&copy; ROBO.SCHOOL</span>
 
-      <a href="tel:+78000001122" class="footer__phone">
-        +7 800 000 11 22
-      </a>
-    </div>
-  </footer>
-  <script src="/script.js"></script>
-</body>
+        <a
+          href="tel:+78000001122"
+          aria-label="Кнопка позвонить по телефону +78000001122"
+          class="info-panel__button-phone button-icon-gradient"
+        >
+          <svg width="24" height="24">
+            <use href="assets/images/vector/sprites.svg#phone" />
+          </svg>
+        </a>
+        <div class="info-panel__burger burger" id="infoPanelMobile">
+          <button
+            class="burger-button button-icon-gradient"
+            id="buttonBurger"
+            aria-label="Кнопка бургер меню"
+          >
+            <span class="burger-button__line"></span>
+          </button>
+          <nav class="burger-menu">
+            <ul class="burger__list">
+              <li class="menu__list-item">
+                <a href="#">О школе</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#">Тренеры</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#">Стоимость</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="hero header__hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">
+            <span class="hero__title-accent">ROBO</span> SCHOOL
+          </h1>
+          <p class="hero__subtitle">
+            Курсы повышения квалификации по робототехнике для педагогов
+            начальной школы
+          </p>
+          <button type="submit" class="button hero__button">
+            Записаться на курс
+          </button>
+        </div>
+      </div>
+    </header>
 
+    <section class="about-us container">
+      <p class="about-us__text">
+        <strong>Robo School</strong> – учреждение для формирования кадрового
+        педагогического резерва в сфере робототехники <br />
+        и программирования
+      </p>
+      <div class="about-us__advantages">
+        <article class="about-us__advantages-card">
+          <span class="list__item-number"> 10 </span>
+          <p class="list__item-text">
+            УМК по различным направлениям по робототехнике
+          </p>
+        </article>
+        <article class="about-us__advantages-card">
+          <p class="list__item-number">20</p>
+          <p class="list__item-text">Школ, в которых запущена робототехника</p>
+        </article>
+        <article class="about-us__advantages-card">
+          <p class="list__item-number">100</p>
+          <p class="list__item-text">
+            Педагогов прошедших курсы повышения квалификации
+          </p>
+        </article>
+        <article class="about-us__advantages-card">
+          <span class="list__item-number"> 10&nbsp;000 </span>
+          <p class="list__item-text">
+            Обученных детей на базе собственных центров
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__title">Что вы получите после курса</h2>
+        <div class="advantages__list">
+          <article class="advantages__list-item">
+            <h3 class="advantages__list-item-title">Удостоверение</h3>
+            <p class="advantages__list-item-description">
+              Дающее право преподавать робототехнику для детей 6-12 лет в
+              образовательных учреждениях
+            </p>
+          </article>
+          <article class="advantages__list-item">
+            <h3 class="advantages__list-item-title">Знания</h3>
+            <p class="advantages__list-item-description">
+              По основам разработки учебно-<wbr />методических комплексов по
+              робототехнике и программированию
+            </p>
+          </article>
+          <article class="advantages__list-item">
+            <div class="tooltip tooltip-active">
+              <h3 class="advantages__list-item-title">Практику</h3>
+              <div class="tooltip__icon">i</div>
+              <div class="tooltip__text">При наличии свободных мест</div>
+            </div>
+            <p class="advantages__list-item-description">
+              Возможность пройти практику по преподаванию робототехники на базе
+              R:ED&nbsp;LAB (в оффлайн или онлайн формате)
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="package container">
+      <h2 class="package__title">Выберите нужный пакет</h2>
+      <div class="package__list">
+        <article class="package__list-item package-active">
+          <span class="package__list-item-title">PRO</span>
+          <span class="package__list-item-price">20.000 &#8381;</span>
+          <p class="package__list-item-description">
+            УМК по робототетхнике <br />
+            и программированию
+          </p>
+          <a class="button package__button" href="#record">Оставить заявку</a>
+        </article>
+
+        <article class="package__list-item">
+          <span class="package__list-item-title">ROBO</span>
+          <span class="package__list-item-price">15.000 &#8381;</span>
+          <p class="package__list-item-description">УМК по робототетхнике</p>
+          <a class="button package__button" href="#record">Оставить заявку</a>
+        </article>
+
+        <article class="package__list-item">
+          <span class="package__list-item-title">PROG</span>
+          <span class="package__list-item-price">10.000 &#8381;</span>
+          <p class="package__list-item-description">УМК по программированию</p>
+          <a class="button package__button" href="#record">Оставить заявку</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="record">
+      <div class="container record__container">
+        <div class="record__left">
+          <h2 class="record__left-title">Запишитесь на курс со скидкой 10%</h2>
+          <p class="record__left-description">
+            Акция действительна до 10 марта 2022 года
+          </p>
+        </div>
+        <form class="record__form"  id="record">
+          <input type="text" class="input" placeholder="Имя" />
+          <input type="text" class="input" placeholder="Телефон" inputmode="numeric"  />
+          <input type="email" class="input" placeholder="E-mail" />
+          <button type="submit" class="button record__button" >
+            Оформить заявку
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container container-whide">
+        <a href="/" class="footer__logo"> Robo.School </a>
+        <p class="footer__copyright">&copy; ROBO.SCHOOL</p>
+        <a href="tel:+78000001122" class="footer__phone"> +7 800 000 11 22 </a>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
 </html>

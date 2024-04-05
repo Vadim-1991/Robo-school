@@ -18,7 +18,7 @@
     color: var(--color-white);
 }
 
-.record__left-descr {
+.record__left-description {
     max-width: 396px;
     font-weight: 400;
     font-size: 20px;
@@ -70,7 +70,7 @@
         font-size: 30px;
     }
 
-    .record__left-descr {
+    .record__left-description {
         text-align: center;
         font-size: 16px;
     }
