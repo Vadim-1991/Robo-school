@@ -94,7 +94,7 @@
 
   .package__list {
     --caunt-card: 2;
-     gap: 30px;
+    gap: 30px;
     margin-top: 40px;
   }
 
@@ -127,6 +127,12 @@
   .package__list {
     --caunt-card: 1;
     margin-top: 30px;
+  }
+
+  .package__list .package__list-item.package-active:hover,
+  .package__list-item.package-active,
+  .package__list-item:hover {
+    transform: scale(1);
   }
 
   .package__list-item-description {
